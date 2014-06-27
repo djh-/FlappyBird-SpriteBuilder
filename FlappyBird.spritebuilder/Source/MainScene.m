@@ -230,13 +230,6 @@
         }
     }
     
-    hero.position = ccp(hero.position.x, location.y);
-    
-    CGRect gameplayBoundingBox = self.boundingBox;
-    CGRect heroBoundingBox = _hero.boundingBox;
-    
-
-    
     NSMutableArray *offScreenObstacles = nil;
     
     for (CCNode *obstacle in _obstacles) {
